@@ -9,6 +9,8 @@ feign:
   hystrix:
     enabled: true
 ribbon:
+  httpclient:
+    enable: true
   ReadTimeout:  30000
   ConnectTimeout:  15000
 hystrix:
